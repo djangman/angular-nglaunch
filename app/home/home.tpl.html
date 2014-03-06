@@ -1,0 +1,32 @@
+
+
+<div class="snippet-list">
+    
+    <span>{{callstatus}}</span>
+    
+    <div class="search_div">
+        Search: <input type="text"  ng-model="query" > 
+    </div>
+    
+    <div>
+        Add Snippet: <input size="100" type="text" ng-model="new_note" > <button ng-click="addNote()" class="btn btn-primary" >Submit</button> 
+    </div> 
+    
+    <div class="notes_container" >
+ 
+        <div ng-repeat="note in notes | filter:query"  class="note_row">
+             
+              <div class="note_div" style="float:left;"><strong>{{note.note}}</strong></div>
+              
+              <div style="float:left;" class="note_button_class" id={{note.id}}>
+                 <button  ng-click="deleteNote($index)" class="btn btn-danger" >Delete</button>
+              </div>
+             
+              <div class="clear">&nbsp;</div>
+        </div>    
+   
+    </div>
+  
+  
+</div>
+

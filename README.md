@@ -35,4 +35,4 @@ They are mostly files that relate to the "home" view.  The directory structure m
 * Copy the files that have just been updated under bin folder, into your web document root, whether it's your wamp, live host, etc..  and then when you navigate to your www.mydomain.com/yourappname, the app should be workoing
 
 
-
+*** The url to see this app running is:  http://heidibone.com/angular_snippets/#/home

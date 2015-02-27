@@ -1,23 +1,24 @@
 angular-nglaunch
 ================
 
-A headstart on an actual working SPA, that retrieves data from a PHP backend, for those who want to start with the brilliant ng-boilerplate, but would like a working Service, injecting that Service into a Controller, and at least one Jasmine test that is using the jasmine $httpBackend mock.
+**A headstart on an actual working SPA, that retrieves data from a PHP backend, for those who want to start with ng-boilerplate, but would like a working Service, injecting that Service into a Controller, and at least one Jasmine test that is using the jasmine $httpBackend mock.**
 
 ## Quick Intro Explanation, for all audiences, even those new to AngularJS:
 
-### If you're seeking a boilerplate code setup for your first real App in AngularJS, there are many to choose from.  I know of Angular-Seed, Yeoman, and there's of course, the excellent ngBoilerplate. ( https://github.com/ngbp/ngbp ).
+### If you're seeking a boilerplate code setup for your first real App in AngularJS, there are many to choose from.  I know of Angular-Seed, Yeoman, ngBoilerplate. ( https://github.com/ngbp/ngbp ).
 
-I chose ngBoilerplate, and the second I got a glance at the code after cloning it to my PC, I was definitely enthused. 
+I chose ngBoilerplate
 Benefits:
-* You have a complete Grunt configuration set up for you, and are thus forced to learn this brilliant Build system, with  an excellent pre-written config file all written
-* You're all set up with Jasmine testing.. with an example spec.js files already there, and a Karma task written for you in the Grunt file!
+* You have a complete Grunt configuration set up for you, and are thus forced to learn this particular system, with a pre-written config file
+* You're set up with Jasmine testing.. with an example spec.js files already there, and a Karma task written for you in the Grunt file.
 * The Angular Code that @joshdmiller starts you off with, is consistent with the latest conventions of the way Angular is written, including using the ui-router, instead of the built-in routing system, $routeProvider.
 
 
-### Let's jump to the specific steps to get started.
+
+### To get started.
 
 * If you haven't already, go to https://github.com/ngbp/ngbp, and clone ngBoilerplate to your machine.
-* Spend a couple of hours reading the code and absorbing the goodness, and notice how Josh is using the templateCache component of Angular. His Build configuration enables you to have a separate tpl.html file (we're talking about views now), in the **src** directory ( where you do your actual work ), and when you run Grunt, all of the amazing stuff happens, and then your **build** directory now has your executable code, and you'll notice you now have the tpl.html files present on the build side (unlike the js files)... instead you have the **templates-app.js** file.   I know, major runon sentence.
+* Spend a couple of hours reading the code and absorbing the goodness, and notice how Josh is using the templateCache component of Angular. His Build configuration enables you to have a separate tpl.html file (we're talking about views now), in the **src** directory ( where you do your actual work ), and when you run Grunt, so then your **build** directory now has your executable code, and you'll notice you now have the tpl.html files present on the build side (unlike the js files)... instead you have the **templates-app.js** file.   I know, major runon sentence.
 
 * At this point, you could either just start coding, or you could decide to use my starter app, and clone this repo, angular-nglaunch, into a **separate** directory.
 * It's basically, like further training wheels.. I'll do things in a controller, and I write a Factory service, and inject it into the controller.   So you'll have the benefit of starting off from that point.  ( please, if my code is rife with suckiness and wrongness,.. please say so.. so it's a learning experience for me too )

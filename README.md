@@ -9,7 +9,8 @@ angular-nglaunch
 
 I chose ngBoilerplate
 Benefits:
-* You have a complete Grunt configuration set up for you, and are thus forced to learn this particular system, with a pre-written config file
+* You have a complete Grunt configuration set up for you, and are thus encouraged to learn this particular system, with a pre-written config file ( As an Update, I've gone on to learn Gulp, as well which I might like better )
+
 * You're set up with Jasmine testing.. with an example spec.js files already there, and a Karma task written for you in the Grunt file.
 * The Angular Code that @joshdmiller starts you off with, is consistent with the latest conventions of the way Angular is written, including using the ui-router, instead of the built-in routing system, $routeProvider.
 
